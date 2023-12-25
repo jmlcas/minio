@@ -9,7 +9,7 @@ services:
       - MINIO_ROOT_USER=User
       - MINIO_ROOT_PASSWORD=p4ssw0rd
     ports:
-      - "8000:9000"
+      - "9000:9000"
       - "9001:9001"
     restart: unless-stopped
     volumes:
