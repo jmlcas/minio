@@ -14,5 +14,4 @@ services:
     restart: unless-stopped
     volumes:
       - ./minio_data:/data
-#    command: "server --console-address :9001 /data"
     command: server /data --console-address ":9001"
